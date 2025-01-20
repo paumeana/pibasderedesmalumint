@@ -1,4 +1,3 @@
-
 /* ================================
 Imports
 ================================= */
@@ -34,8 +33,7 @@ General
 
 .highlighttestimonio {
   font-weight: bold;
-  color: #989C43;
-  background-color: #DCEFF4;
+  color: #FFF;
   padding: 0 5px;
   border-radius: 3px;
    display: inline; 
@@ -107,6 +105,7 @@ button.navbar-toggle {
 
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
 	color: #fff;
+	border-radius: 15px;
 }
 .btn-theme:hover{
 	background: transparent !important;
@@ -189,7 +188,7 @@ nav.navbar{
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	text-transform: uppercase;
-	padding-top: 40px;
+	padding-top: 25px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -210,7 +209,7 @@ nav.navbar{
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 2em;
-	height: 100px;
+	height: 70px;
 }
 
 /* ================================
@@ -234,6 +233,7 @@ Home sections
 }
 
 .section-heading h2 {
+	font-family: 'perfectly';
 	font-size: 38px;
 	font-weight: 100;
 }
@@ -331,7 +331,7 @@ Intro
 
 #intro .item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -479,6 +479,7 @@ About
 #about .about-img img {
   margin-left: -15px;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -518,6 +519,10 @@ About
 }
 
 /* galeria de about */
+
+.imggallery {
+	border-radius: 5px;
+}
 .gallery-section {
   display: flex;
   justify-content: center;
@@ -585,7 +590,7 @@ Services Style
   display: inline-block;
   text-align: center;
   line-height: 190px;
-  background-color: #999d45;
+  background-color: #E9E9FF;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -607,7 +612,7 @@ Services Style
 }
 
 .services .service-item h4 {
-	color: #E9E9FF;
+	color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -616,7 +621,7 @@ Services Style
 }
 
 .services .service-item p {
-  color: #E9E9FF;
+  color: #fff;
   margin-bottom: 25px;
   font-weight: bold;
 }
